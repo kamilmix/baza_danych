@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA5997FA-C520-4D9F-9C67-2931990BF508" name="Posts_tags">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Posts_id" id="3C918299-A4F9-0AA1-4D48-7D385E386EAC">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2A150DA-403C-4D50-264B-C58B0804D9AD" referredColumn="048ED3C9-3D01-91DF-7929-781E6E6B1DD0"/>
+</associations>
+</Column>
+<Column name="Posts_Users_id" id="B7DE7231-9DFB-7BF1-81F2-DFE7AF4820C2">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2A150DA-403C-4D50-264B-C58B0804D9AD" referredColumn="5F4A0A79-436B-1F03-7140-061679709B6F"/>
+</associations>
+</Column>
+<Column name="Tags_id" id="EEFEEFC9-DFCD-DC6A-BBD0-712CACBE1166">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68AD8D96-01D7-A016-C7A0-2851544135A0" referredColumn="9A70B292-491E-EAC7-D88E-B0D9202BD767"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3014317-87F4-9F9B-8BE7-E2E0B1F43E6D" name="Relation_7_PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C918299-A4F9-0AA1-4D48-7D385E386EAC"/>
+<colUsage columnID="B7DE7231-9DFB-7BF1-81F2-DFE7AF4820C2"/>
+<colUsage columnID="EEFEEFC9-DFCD-DC6A-BBD0-712CACBE1166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F346F16C-53F2-C4A0-1047-9D290D28F81A" name="Relation_7_Posts_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<generatorID>BBAA1C43-45F5-87C6-3276-DEB622E12250</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C918299-A4F9-0AA1-4D48-7D385E386EAC"/>
+<colUsage columnID="B7DE7231-9DFB-7BF1-81F2-DFE7AF4820C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="187EB4F5-49E5-3466-5ED6-CBFBD34A21CF" name="Relation_7_Tags_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<generatorID>BBAA1C43-45F5-87C6-3276-DEB622E12250</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEFEEFC9-DFCD-DC6A-BBD0-712CACBE1166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

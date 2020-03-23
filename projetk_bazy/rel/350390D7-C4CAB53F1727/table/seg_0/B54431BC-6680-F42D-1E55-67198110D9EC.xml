@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B54431BC-6680-F42D-1E55-67198110D9EC" name="Users">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>E3E0B1B7-37CD-935D-20D8-14C007D022AB</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D1E5548C-C084-1BB6-901F-C1029DB4F60A">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>99A00E72-FF00-3FBF-65B1-01B177B7FEF9</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="5D139B6F-1CC9-69E6-3131-A1FC512716CF">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>7A5D9587-F9BB-E161-B22D-6A723EF16D17</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="51F0852B-7ADB-234C-6A20-A29F3598A965">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>91E78E07-2D9C-DD94-9CA0-FF32C4A463D8</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firstName" id="BE99548A-A009-E88D-29AB-AA202F04CA4D">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>B41F34C1-8E74-B784-D0DC-FC8A031D47DB</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastName" id="35939073-3BCA-CA2A-53B7-885A8386B516">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>A2629C0E-DA81-E05C-5843-3867BDC8DCDD</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="482FF6F9-EDD7-93AD-937D-3D7A0F8196EF">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>8AAF6289-811E-38C4-D5FA-34B26CA908A4</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthDate" id="92CD50C1-8533-B37F-4965-6F62A381E5E0">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>D41C077D-2268-9123-470F-0C784DC2B198</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isActive" id="EDFB32F9-8B3C-F3A1-F8BF-C63DC4929860">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>3E403401-71A8-2022-B342-3DC9E4BBFD26</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AAE13F2-521A-284E-F984-E99096E2123A" name="Users_PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:58:33 UTC</createdTime>
+<generatorID>D7F1F55A-21E2-2D8A-416B-9979CE9975BC</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1E5548C-C084-1BB6-901F-C1029DB4F60A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

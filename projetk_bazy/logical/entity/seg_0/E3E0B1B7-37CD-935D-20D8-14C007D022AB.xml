@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3E0B1B7-37CD-935D-20D8-14C007D022AB" name="Users">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:48:21 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="99A00E72-FF00-3FBF-65B1-01B177B7FEF9">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:49:49 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="7A5D9587-F9BB-E161-B22D-6A723EF16D17">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:50:07 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="91E78E07-2D9C-DD94-9CA0-FF32C4A463D8">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:51:03 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firstName" id="B41F34C1-8E74-B784-D0DC-FC8A031D47DB">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:51:13 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lastName" id="A2629C0E-DA81-E05C-5843-3867BDC8DCDD">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:51:14 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="8AAF6289-811E-38C4-D5FA-34B26CA908A4">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:51:37 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthDate" id="D41C077D-2268-9123-470F-0C784DC2B198">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:54:10 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isActive" id="3E403401-71A8-2022-B342-3DC9E4BBFD26">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:54:39 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7F1F55A-21E2-2D8A-416B-9979CE9975BC" name="Users PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:50:00 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99A00E72-FF00-3FBF-65B1-01B177B7FEF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

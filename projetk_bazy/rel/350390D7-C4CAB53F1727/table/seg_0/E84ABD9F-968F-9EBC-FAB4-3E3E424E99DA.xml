@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E84ABD9F-968F-9EBC-FAB4-3E3E424E99DA" name="Ratings">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<generatorID>8D6B5063-CCAC-F17E-4392-129A4E7050F2</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rating" id="DAF5A2DE-25E7-9DF0-0531-2DBFD5CF8168">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<generatorID>9FC19930-4767-3648-38D2-638D412B58A6</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Users_id" id="08FE3C47-2938-F668-2801-881AC9F6DC67">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<generatorID>8616266E-4ED3-D0E0-1464-3EFECAD55777</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A1D5FD0-D5AF-739B-F824-625A645F0337" referredColumn="D1E5548C-C084-1BB6-901F-C1029DB4F60A"/>
+</associations>
+</Column>
+<Column name="Posts_id" id="3EA05CCB-2C19-09FF-3B52-213F59E312B0">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<generatorID>DD9DAACE-6E10-09FD-3771-66606BCB426D</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF498AAA-98F2-78BA-E98D-2B21EB8DCD08" referredColumn="048ED3C9-3D01-91DF-7929-781E6E6B1DD0"/>
+</associations>
+</Column>
+<Column name="Posts_Users_id" id="849F6AEA-61A3-3CDB-7D91-819A714527C7">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<generatorID>EACDC713-1B7E-AF79-8712-6D07CAD123E3</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF498AAA-98F2-78BA-E98D-2B21EB8DCD08" referredColumn="5F4A0A79-436B-1F03-7140-061679709B6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1252E7C6-B412-6DA4-7FA8-1F522E436CF4" name="Ratings_Users_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<generatorID>435B789A-EAC3-1BD9-DA10-72E7A532455F</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08FE3C47-2938-F668-2801-881AC9F6DC67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F349659-64D2-20B8-2CDC-019B8BF4C227" name="Ratings_Posts_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 19:08:54 UTC</createdTime>
+<generatorID>2B17ED16-DCA5-BF83-0A51-0A6F4C8A0D1F</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA05CCB-2C19-09FF-3B52-213F59E312B0"/>
+<colUsage columnID="849F6AEA-61A3-3CDB-7D91-819A714527C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

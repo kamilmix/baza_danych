@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="User_roles" directorySegmentName="seg_0" id="F95A935B-2C2D-C531-AC1E-2D732635251C">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-23 18:57:09 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<engineerTo>
+<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E3E0B1B7-37CD-935D-20D8-14C007D022AB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D6AA67B-324A-B5A4-760D-2AAA0385B9D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
