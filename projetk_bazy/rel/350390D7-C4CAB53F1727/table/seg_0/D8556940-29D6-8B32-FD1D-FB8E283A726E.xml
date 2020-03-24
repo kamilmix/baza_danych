@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8556940-29D6-8B32-FD1D-FB8E283A726E" name="Ratings">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>8D6B5063-CCAC-F17E-4392-129A4E7050F2</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1B3DDB6F-5A97-EB4C-ADF1-DEB2FE6F4DAB">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:27:54 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="5984D928-0DC9-CEC2-741F-D0E6A4B93C7A">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>9FC19930-4767-3648-38D2-638D412B58A6</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Users_id" id="50FB25AB-533B-3C67-020D-14DB1CDD3868">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>8616266E-4ED3-D0E0-1464-3EFECAD55777</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DC71F51-D31E-858B-5593-0A0F0FA957AD" referredColumn="3B479BBB-A1D2-03C3-213A-C989BCF51F27"/>
+</associations>
+</Column>
+<Column name="Posts_id" id="AB307DA2-57E2-EDBE-E110-DBC6C836C6D9">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>DD9DAACE-6E10-09FD-3771-66606BCB426D</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E8B9FC5-D466-A1E8-AC74-74D902B24973" referredColumn="A9A10A6C-832E-AF91-E7AD-83B65BA708A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53EAD9DF-80E5-A09D-8309-2C1980093B7C" name="Ratings_PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:27:54 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B3DDB6F-5A97-EB4C-ADF1-DEB2FE6F4DAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E40BA41-3AAD-EBD4-BED7-D6511B37751E" name="Ratings_Users_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>435B789A-EAC3-1BD9-DA10-72E7A532455F</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50FB25AB-533B-3C67-020D-14DB1CDD3868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AFCFBDD-9A32-7D5E-55DD-16C63629C87D" name="Ratings_Posts_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>2B17ED16-DCA5-BF83-0A51-0A6F4C8A0D1F</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB307DA2-57E2-EDBE-E110-DBC6C836C6D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

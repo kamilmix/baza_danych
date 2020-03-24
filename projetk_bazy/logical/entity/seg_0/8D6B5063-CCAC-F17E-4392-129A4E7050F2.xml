@@ -55,19 +55,5 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id11" id="EACDC713-1B7E-AF79-8712-6D07CAD123E3">
-<createdBy>Kamil</createdBy>
-<createdTime>2020-03-23 19:05:45 UTC</createdTime>
-<generatorID>2B17ED16-DCA5-BF83-0A51-0A6F4C8A0D1F</generatorID>
-<ownerDesignName>projetk_bazy</ownerDesignName>
-<engineerTo>
-<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
-</engineerTo>
-<referedAttribute>0FB52A6F-EA0C-80FB-B70C-B9E8FDCD9AAB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 </Entity>

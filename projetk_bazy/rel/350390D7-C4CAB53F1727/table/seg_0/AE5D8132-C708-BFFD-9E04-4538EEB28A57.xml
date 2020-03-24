@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE5D8132-C708-BFFD-9E04-4538EEB28A57" name="User_roles">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Users_id" id="E4B25EBF-1EEC-50FA-145B-86D865A8B43C">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32FF1CB0-FDFE-1108-5636-76E8B31CC16F" referredColumn="3B479BBB-A1D2-03C3-213A-C989BCF51F27"/>
+</associations>
+</Column>
+<Column name="Roles_id" id="07DD5656-DAD8-7A85-1B91-954D1CA7796D">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69C86C26-ED84-C074-AAB3-400AA6947479" referredColumn="85DD58FB-0B2F-8A8B-1A94-AC05C1EC0BC7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8879163D-8F4E-FB28-39BD-C22911BFB229" name="User_roles_PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B25EBF-1EEC-50FA-145B-86D865A8B43C"/>
+<colUsage columnID="07DD5656-DAD8-7A85-1B91-954D1CA7796D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C074C7FD-9EA8-42C6-89BE-7843A28F2DFA" name="User_roles_Users_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>F95A935B-2C2D-C531-AC1E-2D732635251C</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B25EBF-1EEC-50FA-145B-86D865A8B43C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="981990B4-D2CD-501F-E740-E65773B66389" name="User_roles_Roles_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>F95A935B-2C2D-C531-AC1E-2D732635251C</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07DD5656-DAD8-7A85-1B91-954D1CA7796D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

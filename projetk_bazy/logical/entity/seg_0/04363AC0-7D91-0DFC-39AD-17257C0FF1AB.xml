@@ -80,20 +80,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id11" id="6E8FF9EF-9205-C783-0D2A-00FED9ADA83C">
-<createdBy>Kamil</createdBy>
-<createdTime>2020-03-23 19:07:47 UTC</createdTime>
-<generatorID>0FBD550A-B702-D5D8-98E4-C4BB68D5D0F2</generatorID>
-<ownerDesignName>projetk_bazy</ownerDesignName>
-<engineerTo>
-<item key="350390D7-B0F8-AB17-E66A-C4CAB53F1727" value="true"/>
-</engineerTo>
-<referedAttribute>0FB52A6F-EA0C-80FB-B70C-B9E8FDCD9AAB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="838298EF-F9E9-2892-729C-C923D342C227" name="Comments PK">

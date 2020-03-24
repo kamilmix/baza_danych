@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D88C9E2-E83B-2A23-CC4B-60810D9D1C28" name="Posts_tags">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Post_Tag_Id" id="10072F2C-567E-8B0B-2494-9E29ADC0DF47">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:26:32 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posts_id" id="DC68E4A5-A47A-F88E-C99D-3CAB5FE9565C">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF65E78F-E2DA-648E-335A-D84D6278FED7" referredColumn="A9A10A6C-832E-AF91-E7AD-83B65BA708A4"/>
+</associations>
+</Column>
+<Column name="Tags_id" id="71F21D05-2A52-22D0-3DFA-CD10DDCCA0E7">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B220BB94-1F59-3B78-551A-817DED177509" referredColumn="944A016F-6414-43E4-BDE9-A3065CE876C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D01C50A-20B2-0BF8-BD5E-14DC47BB7392" name="Posts_tags_PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10072F2C-567E-8B0B-2494-9E29ADC0DF47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B68D442F-F3A9-7A65-E08E-AFF5BB97428C" name="Posts_tags_Posts_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>BBAA1C43-45F5-87C6-3276-DEB622E12250</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC68E4A5-A47A-F88E-C99D-3CAB5FE9565C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F30B5905-6BDD-6B93-6085-27B0D502CBF4" name="Posts_tags_Tags_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2020-03-24 15:22:53 UTC</createdTime>
+<generatorID>BBAA1C43-45F5-87C6-3276-DEB622E12250</generatorID>
+<ownerDesignName>projetk_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71F21D05-2A52-22D0-3DFA-CD10DDCCA0E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
